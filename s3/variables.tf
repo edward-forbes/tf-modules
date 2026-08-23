@@ -8,11 +8,6 @@ variable "versioning_enabled" {
   default = true
 }
 
-variable "prevent_destroy" {
-  type    = bool
-  default = true
-}
-
 variable "block_public_access" {
   type    = bool
   default = true
